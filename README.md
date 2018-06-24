@@ -8,7 +8,7 @@ JavaScript Closures Lab
 3. Use a closure to define a partially applied function
 
 ## Introduction
-Now that we've talked about what closures are and how we can leverage them to write better code, it's time to put that knowledge to the test! As a quick reminder, a closure is a function that has access to the variables (i.e. parameters and regular variables) and methods declared in the parent scope, even after the parent function has been executed. We can use closures to emulate 'private' variables and methods, as well as use them to make creating certain functions quicker and more dynamic.
+Now that we've talked about what closures are and how we can leverage them to write better code, it's time to put that knowledge to the test! As a quick reminder, a closure is a function that has access to the variables (i.e. parameters and regular variables) and methods declared in the parent scope, even after the parent function has been executed. We can use closures to emulate 'private' variables hand methods, as well as use them to make creating certain functions quicker and more dynamic.
 
 ## Three-point turn
 ![Austin Powers car](https://media.giphy.com/media/y6Sl42U3xEFkk/giphy.gif)
