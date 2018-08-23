@@ -1,6 +1,6 @@
 const app = "I don't do much."
 function bumpCounter() {
-  counter = 0;
+  let counter = 0;
   function addBump() {
     counter = counter + 1;
   }
@@ -16,16 +16,14 @@ function bumpCounter() {
 }
 
 function createAnimal(animalType) {
-  function f1(deadlyDevice) {
+  return function(deadlyDevice) {
     return {
       animalType: animalType,
       deadlyDevice: deadlyDevice
     }
   }
-  
-  return f1;
 }
 
-sharkCreator = createAnimal('Shark');
-sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
-sharkWithFrickinCannon = sharkCreator('Cannon');
+let sharkCreator = createAnimal('Shark');
+let sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
+let sharkWithFrickinCannon = sharkCreator('Cannon');
